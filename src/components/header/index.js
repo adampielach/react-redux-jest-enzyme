@@ -5,10 +5,10 @@ import './Header.scss'
 
 const Header = props => {
     return (
-        <header>
+        <header data-test="headerComponent">
             <div className="wrap">
                 <div className="logo">
-                    <img src={logo} alt="logo" />
+                    <img data-test="logoIMG" src={logo} alt="logo" />
                 </div>
             </div>
         </header>
